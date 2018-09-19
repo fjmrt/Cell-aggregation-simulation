@@ -21,7 +21,7 @@ Test code for the simulation of cell aggregation by chemotaxis.  Cells are repre
 
 ### cellmig function
 - f0 : the strength of chemotactic force.
-- epsilon, sigma : fitting parameters of [Lennerd-Jones potential](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
+- epsilon, sigma : fitting parameters of [Lennard-Jones potential](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
 
 ### How to run
 Put cAMPsecretion_cellmigration_LJpotential.m file in MATLAB directory.  Execute `cAMPsecretion_cellmigration_LJpotential;`.  Initial cell position is random, and initial cAMP concentration is zero.  After the setting of initial condition, program will pause and require your input.  Press any key to start simulation.  If cells are too dense, error could occur due to too strong repulsive force by Lennard-Jones potential.
