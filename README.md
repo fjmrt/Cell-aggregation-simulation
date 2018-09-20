@@ -1,10 +1,13 @@
 # Cell aggregation simulation
+Test code for the simulation of cell aggregation by chemotaxis.  This is inspired by aggregation of *Dictyostelium discoideum* cells chemotaxing toward extracellular cAMP secreted by their own.  
 
 ## DEMO
-<img src="https://user-images.githubusercontent.com/40162543/45744016-63999480-bc38-11e8-9991-b57245957818.gif" width="50%" style="display:block;margin:auto;">
+<div align="center">
+<img src="https://user-images.githubusercontent.com/40162543/45744016-63999480-bc38-11e8-9991-b57245957818.gif" width="50%">
+</div>
 
 ## Overview
-Test code for the simulation of cell aggregation by chemotaxis.  Cells are represented as particles.  The motive force includes chemotactic force and Lennard-Jones potential as volume exclusion.  The direction of chemotactic force is gradient of cAMP field.  The strength of chemotactic force is constant, f0.  The dynamics is considered as over-damped condition, thus inertia term is ignored.  The external field of cAMP is formed by point source secretion by each cells and diffusion.  Simulation is performed under periodic boundary condition.
+Cells are represented as particles.  The motive force includes chemotactic force and Lennard-Jones potential as volume exclusion.  The direction of chemotactic force is gradient of cAMP field.  The strength of chemotactic force is constant, f0.  The dynamics is considered as over-damped condition, thus inertia term is ignored.  The external field of cAMP is formed by point source secretion by each cells and diffusion.  Simulation is performed under periodic boundary condition.  The equasions are solved using fourth-order Runge-Kutta method.  
 
 ## Requirements
 - MATLAB (>= R2015b)
